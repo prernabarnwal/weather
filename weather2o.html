@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="wether2.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header> <div class="ani1">
+      <input type="text" class="search" placeholder="Search for a city..." /></div>
+      <button class="search-icon"> <div class="ani2">
+        <i class="fa-solid fa-magnifying-glass"></i></div></button>
+    </header>
+    <main>
+      
+        <!-- <div class="pic"><img src="weatherclip.jpg"></div> -->
+      <section class="location">
+        <div class="city">Barrackpore</div>
+        <div class="date">Saturday 2 February 2025</div>
+      </section>
+      <div class="current">
+        <!-- <div class="img"><img class="img2" src="sky2.jpg" height="200px"></div> -->
+        <div class="temp">20<span>°c</span></div>
+        <div class="weather">WEATHER</div>
+        <div class="boxes">
+        <div class="country border"><h5>Country Name: </h5></div>
+        <div class="hi-low border"><h5>High-Low temp: </h5></div>
+        <div class="speed border"><h5>Wind speed: </h5></div>
+        <div class="humid border"><h5>Humidity: </h5></div>
+        <div class="pressure border"><h5>Pressure: </h5></div>
+        <div class="sunrise border"><h5>Sunrise: </h5></div>
+        <div class="sunset border"><h5>Sunset: </h5></div>
+        </div>
+      </div>
+    
+    </main>
+    <div class="error"><p>Location not found</p>
+      <img src="error.jpg" height="200px">
+      </div>
+  </div>
+  <script src="weather2.js"></script>
+</body>
+</html>
